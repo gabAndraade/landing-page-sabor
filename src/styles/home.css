@@ -2,9 +2,13 @@
     display: flex;
     min-height: calc(100vh - 98px);
     position: relative;
+    background-image: url(pexels-chan-walrus-958545.jpg);
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: overlay;
+    background-size: cover;
 }
 #cta{
-    width: 35%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     padding: 28px;
@@ -13,13 +17,14 @@
 }
 #cta .title{
     font-size: 4rem;
-    color: #303030;
+    color: #ffffff;
 }
 #cta .title span{
     color: red;
 }
 #cta .description{
     font-size: 1.2rem;
+    color: #fff;
 }
 #cta_buttons{
     display: flex;
@@ -39,27 +44,9 @@
     box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
     border-radius:12px ;
 }
-#banner{
-    display: flex;
-    align-items: start;
-    justify-content: start;
-    width: 70%;
-    z-index: 2;
-}
-#banner img{
-    height: 70%;
-    width: fit-content;
-}
-.shape{
-    background-color: #ff7b7b;
-    width: 50%;
-    height: 100%;
-    position: absolute;
-    border-radius:20% 40% 40% 0% ;
-    top: 0;
-    left: 0;
-    z-index: 1;
-}
+
+
+
 @media screen and (max-width:900px){
 
     #home{
