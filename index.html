@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <link rel="stylesheet" href="src/styles/header.css">
+    <link rel="stylesheet" href="src/styles/home.css">
+    <link rel="stylesheet" href="src/styles/menu.css">
+    <link rel="stylesheet" href="src/styles/testimonials.css">
+    <link rel="stylesheet" href="src/styles/footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://kit.fontawesome.com/e9d2580056.js" crossorigin="anonymous"></script>
+    <title>Landing Page</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-utensils" id="nav_logo"> SABOR</i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Peça Aqui
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+            <button class="btn-default">
+                Peça Aqui
+            </button>
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="banner">
+                <img src="src/images/pngtree-top-view-of-thanksgiving-roasted-chicken-on-plate-with-other-dishes-png-image_10645729.png" alt="">
+
+            </div>
+            <div id="cta">
+                <h1 class="title">
+                    O sabor que vai até <span>você.</span>
+                </h1>
+
+                <p class="description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae tempora cumque eaque expedita quae tempore.
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">Ver cardápio</a>
+                    <a href="tel:+000000000" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                            
+                        </button>
+                        (00)000000000
+                    </a>
+                </div>
+                <div class="social_media_buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+            
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Cardápio</h2>
+            <h3 class="section-subtitle">Pratos Especiais</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    
+                    <img src="src/images/Food-Plate-Healthy-PNG.png"class="dish-image" alt="" width="250px">
+                    <h3 class="dish-title">
+                        Lorem Ipsum
+                    </h3>
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet consectetur.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>[200+]</span>
+                    </div>
+                
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="dish">
+                    
+                    <img src="src/images/Food-Plate-Top-View-Non-Veg-PNG.png"class="dish-image" alt="" width="250px">
+                    <h3 class="dish-title">
+                        Lorem Ipsum
+                    </h3>
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet consectetur.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>[200+]</span>
+                    </div>
+                
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="dish">
+                   
+                    <img src="src/images/Food-Plate-Top-View-Nutrition-PNG.png"class="dish-image" alt="" width="250px">
+                    <h3 class="dish-title">
+                        Lorem Ipsum
+                    </h3>
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet consectetur.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>[200+]</span>
+                    </div>
+                
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="dish">
+                    
+                    <img src="src/images/Noodle-Food-Plate-Top-View-PNG.png"class="dish-image" alt="" width="250px">
+                    <h3 class="dish-title">
+                        Lorem Ipsum
+                    </h3>
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet consectetur.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>[200+]</span>
+                    </div>
+                
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials">
+            <h2 class="section-title">Avaliações</h2>
+            <div class="testimonials-container">
+                <div class="slide">
+                    <i class="fa-solid fa-quote-left" class="quote"></i>
+                    <p class="test-text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate debitis beatae vitae officia non, omnis autem. Quae, aperiam tempore sequi repudiandae ipsam veritatis, nihil vero illum at voluptate beatae!
+                    </p>
+                    <div class="person">
+                        <i class="fa-solid fa-circle-user" id="user"></i>
+                        <div class="info-person">
+                            <p class="name-person">
+                                Felipe Almeida
+                            </p>
+                            <p class="func-person">Cliente</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="slide">
+                    <i class="fa-solid fa-quote-left" class="quote"></i>
+                    <p class="test-text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate debitis beatae vitae officia non, omnis autem. Quae, aperiam tempore sequi repudiandae ipsam veritatis, nihil vero illum at voluptate beatae!
+                    </p>
+                    <div class="person">
+                        <i class="fa-solid fa-circle-user" id="user"></i>
+                        <div class="info-person">
+                            <p class="name-person">
+                                Alcino Paes
+                            </p>
+                            <p class="func-person">Cliente</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="slide">
+                    <i class="fa-solid fa-quote-left" class="quote" ></i>
+                    <p class="test-text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate debitis beatae vitae officia non, omnis autem. Quae, aperiam tempore sequi repudiandae ipsam veritatis, nihil vero illum at voluptate beatae!
+                    </p>
+                    <div class="person">
+                        <i class="fa-solid fa-circle-user" id="user"></i>
+                        <div class="info-person">
+                            <p class="name-person">
+                                Wellington Ribeiro
+                            </p>
+                            <p class="func-person">Cliente</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </section>
+    </main>
+    
+    <footer>
+       
+        <div id="footer_items">
+           
+            <span id="copyright">
+                &copy 2024 Gabriel Andrade
+            </span>
+            <div class="social_media_buttons">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                
+            </div>
+    
+        </div>
+    </footer>
+
+
+    <script src="src/javascript/script.js"></script>
+    
+</body>
+</html>
